@@ -15,7 +15,7 @@ pkg install git tsu python wpa-supplicant pixiewps iw -y
 # Check directory and clone
 if [ ! -d "WiTech" ] && [ ! -f "main.py" ]; then
     echo -e "${GREEN}[+] Cloning WiTech repository...${RESET}"
-    git clone https://github.com/msrofficial/WiTech
+    git clone https://github.com/kafi5/WiTech
     cd WiTech || exit
 elif [ -d "WiTech" ]; then
     cd WiTech || exit
