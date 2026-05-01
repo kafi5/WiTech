@@ -45,7 +45,7 @@ WiTech v2.0 installs globally. Once set up, you can run it from any directory us
 ### Method 1 — One Command (Recommended)
 
 ```bash
-curl -sLo installer.sh https://raw.githubusercontent.com/msrofficial/WiTech/main/installer.sh && bash installer.sh
+curl -sLo installer.sh https://raw.githubusercontent.com/kafi5/WiTech/main/installer.sh && bash installer.sh
 ```
 
 This will automatically update packages, install all dependencies, clone the repository, and register the `WiTech` global command.
@@ -55,7 +55,7 @@ This will automatically update packages, install all dependencies, clone the rep
 ```bash
 pkg update && pkg upgrade -y
 pkg install root-repo git tsu python wpa-supplicant pixiewps iw -y
-git clone https://github.com/msrofficial/WiTech
+git clone https://github.com/kafi5/WiTech
 cd WiTech
 chmod +x install.sh
 bash install.sh
@@ -125,10 +125,10 @@ WiTech fix
 
 If the issue persists, use the dedicated fix script:
 ```bash
-curl -sO https://raw.githubusercontent.com/msrofficial/fix-termux-root/main/fix.sh && chmod +x fix.sh && ./fix.sh
+curl -sO https://raw.githubusercontent.com/kafi5/fix-termux-root/main/fix.sh && chmod +x fix.sh && ./fix.sh
 ```
 
-Manual solutions: [github.com/msrofficial/fix-termux-root](https://github.com/msrofficial/fix-termux-root)
+Manual solutions: [github.com/kafi5/fix-termux-root](https://github.com/kafi5/fix-termux-root)
 
 ---
 
@@ -170,11 +170,9 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 | Platform | Link |
 |---|---|
-| GitHub | [msrofficial](https://github.com/msrofficial) |
-| Facebook | [sakibur.msr](https://facebook.com/sakibur.msr) |
-| Instagram | [msr.sakibur](https://instagram.com/msr.sakibur) |
-| Telegram | [@msrofficial](https://t.me/msrofficial) |
-| Website | [msrsakibur.pro.bd](https://msrsakibur.pro.bd) |
+| GitHub | [kafi5](https://github.com/kafi5) |
+| Telegram | [@rhktech1m](https://t.me/rhktech1m) |
+| telegram channel | [@duomodhub](https://t.me/duomodhub) |
 
 
 
